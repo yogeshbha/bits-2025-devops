@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Define a route for the home page
 @app.route('/')
 def home():
-    return 'Welcome to my Flask application!'
+    return 'Welcome to bits Flask application!'
 
 # Add another route with a different endpoint
 @app.route('/about')
