@@ -12,7 +12,7 @@ def home():
 # Add another route with a different endpoint
 @app.route('/about')
 def about():
-    return 'This is the about page'
+    return 'This is the about user1 page'
 
 # Add a route with a dynamic parameter
 @app.route('/user/<username>')
